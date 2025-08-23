@@ -217,7 +217,11 @@ $RECYCLE.BIN/
 .env.production
 .env.development
 
-# Gravitational wave data files
+# Gravitational wave data files (ALLOW SPECIFIC GW150914 FILES)
+# Allow the specific GW150914 strain data files for this project
+!data/H1-1126259446-1126259478.txt
+!data/L1-1126259446-1126259478.txt
+# But ignore other strain data files
 data/H1-*.txt
 data/L1-*.txt
 data/V1-*.txt
@@ -225,9 +229,12 @@ data/*.hdf5
 data/*.h5
 data/*.gwf
 
-# Analysis results and logs
-data/logs/
-data/matched_filter_records.jsonl
+# Analysis results and logs (ALLOW SPECIFIC PROJECT FILES)
+# Allow project-specific analysis results
+!data/matched_filter_records.jsonl
+!data/logs/
+!data/logs/*.log
+# But ignore other analysis results
 data/optimization_results/
 data/*.png
 data/*.pdf

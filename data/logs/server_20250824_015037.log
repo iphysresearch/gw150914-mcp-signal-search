@@ -1,0 +1,25 @@
+2025-08-24 01:50:38,501 - INFO - __main__ - GW Analysis Server initialized with environment variables:
+2025-08-24 01:50:38,502 - INFO - __main__ -   Data Configuration:
+2025-08-24 01:50:38,502 - INFO - __main__ -     Temp directory: ./data/
+2025-08-24 01:50:38,502 - INFO - __main__ -     JSON file path: ./data/matched_filter_records.jsonl
+2025-08-24 01:50:38,502 - INFO - __main__ -   GW150914 Event Configuration:
+2025-08-24 01:50:38,502 - INFO - __main__ -     GPS start time: 1126259446
+2025-08-24 01:50:38,502 - INFO - __main__ -     GPS end time: 1126259478
+2025-08-24 01:50:38,502 - INFO - __main__ -     Signal GPS time: 1126259462.427
+2025-08-24 01:50:38,502 - INFO - __main__ -     Default detectors: ['H1', 'L1']
+2025-08-24 01:50:38,502 - INFO - __main__ -   Analysis Configuration:
+2025-08-24 01:50:38,502 - INFO - __main__ -     Waveform approximant: IMRPhenomD
+2025-08-24 01:50:38,502 - INFO - __main__ -     Frequency range: 20.0-2048.0 Hz
+2025-08-24 01:50:38,502 - INFO - __main__ -     Detection threshold: 8.0
+2025-08-24 01:50:38,502 - INFO - __main__ -     High-pass frequency: 15.0 Hz
+2025-08-24 01:50:38,502 - INFO - __main__ -   Logging Configuration:
+2025-08-24 01:50:38,502 - INFO - __main__ -     Log level: 20
+2025-08-24 01:50:38,502 - INFO - __main__ -     Debug mode: True
+2025-08-24 01:50:38,502 - INFO - __main__ -     Verbose logging: True
+2025-08-24 01:50:38,502 - INFO - __main__ -   Environment file loaded: .env
+2025-08-24 01:50:38,527 - INFO - __main__ - Cleared previous results file: ./data/matched_filter_records.jsonl
+2025-08-24 01:50:38,528 - INFO - __main__ - Starting GW Analysis MCP Server
+2025-08-24 01:50:38,528 - INFO - __main__ - Server configuration loaded from environment:
+2025-08-24 01:50:38,528 - INFO - __main__ -   Temp directory: ./data/
+2025-08-24 01:50:38,528 - INFO - __main__ -   JSON file path: ./data/matched_filter_records.jsonl
+2025-08-24 01:50:38,528 - INFO - __main__ -   Debug mode: True
