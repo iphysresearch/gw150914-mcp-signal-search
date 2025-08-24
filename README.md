@@ -1,3 +1,5 @@
+[![MSeeP.ai Security Assessment Badge](https://mseep.net/pr/iphysresearch-gw150914-mcp-signal-search-badge.png)](https://mseep.ai/app/iphysresearch-gw150914-mcp-signal-search)
+
 # GW150914 MCP Signal Search
 
 A gravitational wave signal detection and optimization system using the Model Context Protocol (MCP) for efficient parameter space exploration.
