@@ -1,6 +1,13 @@
 # GW150914 MCP Signal Search - .gitignore
 
 # ========================================
+# Documentation (Allow specific files)
+# ========================================
+# Allow docs directory and its contents
+!docs/
+!docs/**
+
+# ========================================
 # Python
 # ========================================
 # Byte-compiled / optimized / DLL files

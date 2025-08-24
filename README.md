@@ -194,6 +194,38 @@ This project focuses on the GW150914 event, the first direct detection of gravit
 - **Detectors**: LIGO Hanford (H1) and LIGO Livingston (L1)
 - **Peak SNR**: ~24 in the network
 
+## 📈 Results & Validation
+
+This project was developed and validated at the **AI for Science Hackathon (Beijing)** with promising results demonstrating the effectiveness of LLM-agent powered gravitational wave detection.
+
+### Key Findings
+
+![Project Overview](docs/images/hackathon-title-slide.png)
+*Project presentation at AI for Science Hackathon (Beijing) - LLM-agent powered gravitational wave detection and scientific discovery*
+
+#### Reliability Analysis
+The system demonstrates consistent convergence behavior across different initial conditions:
+
+![Reliability Analysis](docs/images/reliability-analysis.png)
+*Parameter evolution and convergence analysis showing gradual convergence to true values during exploration. The system shows consistent performance under different initial conditions with average iterations of 13.3 ± 3.5 to reach maximum SNR of 19.56.*
+
+#### Detection Performance
+The automated system successfully detects and analyzes gravitational wave signals:
+
+![Detection Results](docs/images/detection-results.png)
+*Network SNR time series showing successful detection of GW150914 signal. The system achieves peak network SNR of 19.6 at GPS time 1126259462.428, demonstrating automated GW data detection with LLM-agent validation on real GW data.*
+
+### Validation Results
+- **Convergence**: Parameters gradually converge to true values during exploration
+- **Consistency**: Model shows consistent performance under different initial conditions  
+- **Accuracy**: Successfully achieves maximum SNR of ~19.6, matching theoretical expectations
+- **Automation**: Fully automated detection pipeline validated on real LIGO data
+
+### Technical Report
+For detailed methodology, results, and analysis, see: [`docs/Hackathon.pdf`](docs/Hackathon.pdf)
+
+*Presented by He Wang (ICTP-AP, UCAS) and Yiming Dong (PKU) at AI for Science Hackathon (Beijing), August 24, 2025*
+
 ## 🛠️ Development
 
 ### Setting up Development Environment
@@ -248,7 +280,6 @@ Edit the optimization query in the client to specify different:
 MIT License - see LICENSE file for details.
 
 ## 📚 Learning Resources
-
 ### MCP (Model Context Protocol) Resources
 - **[Official MCP Documentation](https://modelcontextprotocol.io/docs/getting-started/intro)** - Complete getting started guide and API reference
 - **[DeepLearning.AI MCP Course](https://www.deeplearning.ai/short-courses/mcp-build-rich-context-ai-apps-with-anthropic/)** - "MCP: Build Rich-Context AI Apps with Anthropic" - comprehensive hands-on course by Elie Schoppik
@@ -260,7 +291,7 @@ MIT License - see LICENSE file for details.
 ### Scientific Computing & AI Resources
 - **[AI4Science Events](https://ai4.science/events/stanford-quantum-science-hackathon)** - Stanford Quantum Science Hackathon and other AI for science events
 - **[AI-4-Science Organization](https://ai-4-science.org/)** - Community and resources for AI applications in scientific research
-- **[GW Analysis Resources](https://drive.google.com/file/d/1rg0ZZjU-OgPZ4ZGvfYJPWgapbLeqKz5j/view?pli=1)** - Additional gravitational wave analysis materials and documentation
+- **[Project Technical Report](docs/Hackathon.pdf)** - Detailed methodology and results from AI for Science Hackathon (Beijing) validation
 
 ### Why These Resources Matter
 This project demonstrates practical applications of MCP in scientific computing, specifically for gravitational wave analysis. The resources above provide:
