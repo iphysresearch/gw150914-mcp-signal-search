@@ -252,6 +252,7 @@ MIT License - see LICENSE file for details.
 ### MCP (Model Context Protocol) Resources
 - **[Official MCP Documentation](https://modelcontextprotocol.io/docs/getting-started/intro)** - Complete getting started guide and API reference
 - **[DeepLearning.AI MCP Course](https://www.deeplearning.ai/short-courses/mcp-build-rich-context-ai-apps-with-anthropic/)** - "MCP: Build Rich-Context AI Apps with Anthropic" - comprehensive hands-on course by Elie Schoppik
+- **[Tutorial on Building AI Scientist Agents with Model Context Protocol](https://drive.google.com/file/d/1rg0ZZjU-OgPZ4ZGvfYJPWgapbLeqKz5j/view?pli=1)** - Comprehensive tutorial on building AI scientist agents using MCP framework
 - **[MCP.Science Repository](https://github.com/pathintegral-institute/mcp.science)** - Open source MCP servers for scientific research with 65+ stars
 - **[How to Build Your Own MCP Server](https://github.com/pathintegral-institute/mcp.science/blob/main/docs/how-to-build-your-own-mcp-server-step-by-step.md)** - Step-by-step tutorial for creating custom MCP servers
 - **[Integrate MCP Server Guide](https://github.com/pathintegral-institute/mcp.science/blob/main/docs/integrate-mcp-server-step-by-step.md)** - Complete integration guide for MCP servers with AI applications
